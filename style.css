@@ -10,3 +10,16 @@ p{
     padding-top: 10px;
     font-size: 25px;
 }
+
+canvas{
+    border:9px solid chartreuse;
+    border-radius: 99px;
+    animation-name:no;
+    animation-duration:4s;
+    margin-top: 48px;
+    animation-iteration-count: infinite;
+}
+@keyframes no{
+    from{box-shadow:1px 1px 39px #4c1902;}
+    to{box-shadow:1px 1px 39px #843511;}
+}
